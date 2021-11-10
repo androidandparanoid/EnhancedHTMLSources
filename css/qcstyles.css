@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 70.5%;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;    
+    line-height: 1.7;
+    /* color: #ffffff; */
+    color: #24272A;
+    padding: 3rem;
+    box-sizing: border-box;
+    /* background-color: #24272A; */
+    background-color: #ffffff;
+}
+
+.header {
+    height: 95vh;    
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.header__logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+
+}
+
+.header__logo {
+    height: 3.5rem;
+}
+
+.header__logo:hover{
+    animation:logoPulse 1s ease-in ;
+}
+
+.header__text-box{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    /*background-color: red;*/
+    transform: translate(-50%, -50%);
+    text-align: center; /*force contents to be on the midle*/
+}
+
+.subheader__text-box{
+  text-align: center;
+}
+
+.table__title{
+    position: static;
+    top: 10rem;
+    left: 4rem;
+}
+
+a{
+    color: crimson;
+}
+
+hr{
+    background-color: #ffffff;
+}
+
+footer{
+    position: static;
+    /* color: #777; */
+    color: #24272A;
+    top: 30rem;
+    left: 4rem;
+    font-size: 1rem;
+}
+
+.developer__text-box{
+    position: relative;    
+    left: 75%;
+}
+
+.rights__text-box{
+    position: relative;    
+    left: 75%;
+}
+
+table {
+
+    width: auto;
+    margin: 20px auto;
+    padding-top: .3rem;
+    font-size: 1.2rem;
+    table-layout : fixed;
+  }  
+
+  th,
+  td {
+    padding: 10px;   
+    padding: .3rem;    
+    vertical-align: top;
+    outline:.2rem solid #777;
+  }
+
+  th{
+    background-color: darkred;
+    color:#ffffff;
+  }
+
+.critical {    
+    color: #f6412d;
+    font-weight: bold;
+  }
+
+  .important {
+    color: #ff5607;
+    font-weight: bold;
+  }
+
+  .moderate {    
+    color: #ff9800;
+    font-weight: bold;
+  }
+
+  .low {    
+    color: #ffc100;
+    font-weight: bold;
+  }
+
+  .unrated {    
+    color: #ffec19;
+    font-weight: bold;
+  }
+
