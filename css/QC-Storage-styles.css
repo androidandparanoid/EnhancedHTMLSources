@@ -565,7 +565,7 @@ hr {
   padding: 0px 250px;
   width: 243px;
   height: 153px;
-  background: url('../img/companylogo.png') center center no-repeat;
+  background: url('https://raw.githubusercontent.com/androidandparanoid/EnhancedHTMLSources/main/img/qc.png') center center no-repeat;
 }
 
 #verylowstorage_logo {
@@ -574,7 +574,7 @@ hr {
   padding: 10px 10px;
   width: 128px;
   height: 93px;
-  background: url('../img/verylowstoragelogo.png') center center no-repeat;
+  background: url('https://raw.githubusercontent.com/androidandparanoid/EnhancedHTMLSources/main/img/verylowstoragelogo.png') center center no-repeat;
   float: left;
   
 }
@@ -585,7 +585,7 @@ hr {
   padding: 10px 10px;
   width: 128px;
   height: 93px;
-  background: url('../img/lowstoragelogo.png') center center no-repeat;
+  background: url('https://raw.githubusercontent.com/androidandparanoid/EnhancedHTMLSources/main/img/lowstoragelogo.png') center center no-repeat;
   float: left;
   
 }
@@ -597,7 +597,7 @@ hr {
   padding: 10px 10px;
   width: 128px;
   height: 93px;
-  background: url('../img/storagelogo.png') center center no-repeat;
+  background: url('https://raw.githubusercontent.com/androidandparanoid/EnhancedHTMLSources/main/img/storagelogo.png') center center no-repeat;
   float: left;
   
 }
@@ -620,7 +620,7 @@ h1 {
 
 table {
    border-collapse: collapse;
-   background-image: url('../img/table.png');
+   background-image: url('https://raw.githubusercontent.com/androidandparanoid/EnhancedHTMLSources/main/img/QCtable.png');
    width: 100%;
 }
 
